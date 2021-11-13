@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Ryan Smith\Documents\LTspiceXVII\Draft7.asc
+
+WARNING: Less than two connections to node VOUT.  This node is used by B1.
+.OP point found by inspection.
+
+Date: Tue Aug 17 22:08:20 2021
+Total elapsed time: 0.191 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 24034
+traniter = 24034
+tranpoints = 12018
+accept = 12018
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 64 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: 174 bytes object code size  0.0/0.0/[0.0]
+

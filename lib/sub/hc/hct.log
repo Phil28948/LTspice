@@ -1,0 +1,3 @@
+Circuit: *HCMOS BERKELEY SPICE MODELS
+
+Fatal Error: .option syntax error: You can't set a value to parameter "post"

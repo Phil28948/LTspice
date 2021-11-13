@@ -1,0 +1,38 @@
+Circuit: * C:\Users\Ryan Smith\Documents\LTspiceXVII\Sequencer_MCNT.asc
+
+WARNING: Less than two connections to node NC_06.  This node is used by R:U1:15.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u3:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u3:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+
+Date: Fri Aug 20 00:44:24 2021
+Total elapsed time: 3.245 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 172698
+traniter = 172684
+tranpoints = 84511
+accept = 83136
+rejected = 1375
+matrix size = 99
+fillins = 1
+solver = Normal
+Matrix Compiler1: 2.73 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: 5.10 KB object code size  0.4/0.7/[0.3]
+

@@ -1,0 +1,42 @@
+Circuit: * C:\Users\Ryan Smith\Documents\LTspiceXVII\Draft9.asc
+
+WARNING: Node NC_06 is floating.
+
+WARNING: Less than two connections to node NC_05.  This node is used by R:U1:15.
+WARNING: Less than two connections to node NC_06.  This node is used by C3.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u3:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u3:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+
+Date: Thu Aug 19 22:57:46 2021
+Total elapsed time: 1.701 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 69149
+traniter = 69107
+tranpoints = 33767
+accept = 33199
+rejected = 568
+matrix size = 104
+fillins = 1
+solver = Normal
+Thread vector: 12.4/9.3[2] 5.8/3.3[2] 5.6/2.8[2] 0.3/1.4[1]  2592/500
+Matrix Compiler1: 2.96 KB object code size  2.0/1.2/[0.5]
+Matrix Compiler2: 5.47 KB object code size  1.2/2.2/[0.6]
+

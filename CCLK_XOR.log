@@ -1,0 +1,61 @@
+Circuit: * C:\Users\Ryan Smith\Documents\LTspiceXVII\CCLK_XOR.asc
+
+Warning: Multiple definitions of model "dio2" Type: Diode
+Warning: Multiple definitions of model "sw_hc2" Type: Switch
+Warning: Multiple definitions of model "sw_hc1" Type: Switch
+Warning: Multiple definitions of model "dio1" Type: Diode
+WARNING: Less than two connections to node NC_01.  This node is used by R:U3:15.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+Ignoring empty pin current: Ix(u6:vcc)
+Ignoring empty pin current: Ix(u7:vcc)
+Ignoring empty pin current: Ix(u8:vcc)
+Ignoring empty pin current: Ix(u9:vcc)
+Ignoring empty pin current: Ix(u10:vcc)
+Ignoring empty pin current: Ix(u11:vcc)
+Ignoring empty pin current: Ix(u12:vcc)
+Ignoring empty pin current: Ix(u13:vcc)
+Ignoring empty pin current: Ix(u14:vcc)
+Ignoring empty pin current: Ix(u5:vcc)
+Ignoring empty pin current: Ix(u15:vcc)
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+Ignoring empty pin current: Ix(u6:vcc)
+Ignoring empty pin current: Ix(u7:vcc)
+Ignoring empty pin current: Ix(u8:vcc)
+Ignoring empty pin current: Ix(u9:vcc)
+Ignoring empty pin current: Ix(u10:vcc)
+Ignoring empty pin current: Ix(u11:vcc)
+Ignoring empty pin current: Ix(u12:vcc)
+Ignoring empty pin current: Ix(u13:vcc)
+Ignoring empty pin current: Ix(u14:vcc)
+Ignoring empty pin current: Ix(u5:vcc)
+Ignoring empty pin current: Ix(u15:vcc)
+
+Date: Thu Sep 02 03:43:12 2021
+Total elapsed time: 2.724 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 33901
+traniter = 33857
+tranpoints = 16125
+accept = 15577
+rejected = 548
+matrix size = 244
+fillins = 9
+solver = Normal
+Thread vector: 38.2/6.8[7] 12.3/7.0[7] 12.6/5.3[7] 0.4/1.5[1]  2592/500
+Matrix Compiler1: 7.00 KB object code size  4.4/2.9/[1.2]
+Matrix Compiler2: 13.23 KB object code size  3.1/4.9/[2.0]
+

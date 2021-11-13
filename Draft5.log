@@ -1,0 +1,38 @@
+Circuit: * C:\Users\Ryan Smith\Documents\LTspiceXVII\Draft5.asc
+
+Error: unknown token in: "v(vcc)-absdelay(v([~]oe_in),25n)"
+Error: unknown token in: "v(vcc)-absdelay(v([~]clr_in),25n)"
+Error: unknown token in: "v(vcc)-absdelay(v([~]clken_in),25n)"
+WARNING: Node U1:CLR_INT is floating.
+
+WARNING: Less than two connections to node U1:~CLR_INT.  This node is used by R:U1:17.
+WARNING: Less than two connections to node CLK.  This node is used by V2.
+WARNING: Less than two connections to node NC_06.  This node is used by V3.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u1:a)
+Ignoring empty pin current: Ix(u1:b)
+Ignoring empty pin current: Ix(u1:y)
+Ignoring empty pin current: Ix(u1:vgnd)
+
+Date: Tue Aug 17 19:28:46 2021
+Total elapsed time: 0.329 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 16360
+traniter = 16354
+tranpoints = 8178
+accept = 8138
+rejected = 40
+matrix size = 72
+fillins = 0
+solver = Normal
+Thread vector: 3.5/2.6[2] 0.8/1.2[1] 1.0/1.7[1] 0.1/1.0[1]  2592/500
+Matrix Compiler1: 1.89 KB object code size  0.4/0.3/[0.1]
+Matrix Compiler2: 3.51 KB object code size  0.2/0.5/[0.2]
+

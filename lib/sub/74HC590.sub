@@ -1,0 +1,63 @@
+* C:\Users\Ryan Smith\Documents\LTspiceXVII\74HC590.asc
+
+.subckt 74HC590 Q_b Q_c Q_d Q_e Q_f Q_g Q_h 0 Vcc Q_a _OE RCLK _CLKEN CLK _CLR _RCO
+
+A1 N001 0 CLK_int 0 _CLR_int N001 Q_a_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+C1 CLK_intII 0 6p
+S2 Q_a Q_a_intII _OE_int 0 SW
+B1 N007 0 V=if(absdelay(V(_OE),25n)<2.5,5,0)
+R1 Q_a 0 100k
+S1 Q_b Q_b_intII _OE_int 0 SW
+R2 Q_b 0 100k
+S3 Q_c Q_c_intII _OE_int 0 SW
+R3 Q_c 0 100k
+S4 Q_d Q_d_intII _OE_int 0 SW
+R4 Q_d 0 100k
+S5 Q_e Q_e_intII _OE_int 0 SW
+R5 Q_e 0 100k
+S6 Q_f Q_f_intII _OE_int 0 SW
+R6 Q_f 0 100k
+S7 Q_g Q_g_intII _OE_int 0 SW
+R7 Q_g 0 100k
+S8 Q_h Q_h_intII _OE_int 0 SW
+R8 Q_h 0 100k
+R9 _CLR 0 100k
+R10 RCLK 0 100k
+B2 N008 0 V=if(absdelay(V(_CLR),25n)<2.5,5,0)
+B3 N011 0 V=if(absdelay(V(RCLK),25n)<2.5,0,5)
+C2 RCLK 0 6p
+C3 _CLR 0 6p
+B4 N004 0 V=if(V(Q_h)<2.5,5,0)
+XU1 _CLKEN_int CLK_intII CLK_int VCC 0 74HC08 VCC=5 SPEED=1.0 TRIPDT=1e-9
+B6 _CLKEN_int 0 V=if(absdelay(V(_CLKEN),25n)<2.5,5,0)
+R11 _CLKEN 0 100k
+C4 _CLKEN 0 6p
+R12 _OE 0 100k
+C5 _OE 0 6p
+B5 CLK_intII 0 V=if(absdelay(V(CLK),25n)<2.5,0,5)
+R13 CLK 0 100k
+C6 CLK 0 6p
+R14 Vcc 0 100k
+A2 N005 0 N001 0 _CLR_int N005 Q_b_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A3 N009 0 N005 0 _CLR_int N009 Q_c_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A4 N003 0 N009 0 _CLR_int N003 Q_d_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A5 N002 0 N003 0 _CLR_int N002 Q_e_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A6 N006 0 N002 0 _CLR_int N006 Q_f_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A7 N010 0 N006 0 _CLR_int N010 Q_g_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A8 N012 0 N010 0 _CLR_int N012 Q_h_int 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A9 Q_a_int 0 RCLK_int 0 0 0 Q_a_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A10 Q_b_int 0 RCLK_int 0 0 0 Q_b_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A11 Q_c_int 0 RCLK_int 0 0 0 Q_c_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A12 Q_d_int 0 RCLK_int 0 0 0 Q_d_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A13 Q_e_int 0 RCLK_int 0 0 0 Q_e_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A14 Q_f_int 0 RCLK_int 0 0 0 Q_f_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A15 Q_g_int 0 RCLK_int 0 0 0 Q_g_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+A16 Q_h_int 0 RCLK_int 0 0 0 Q_h_intII 0 DFLOP Vhigh=5 Vlow=0 Td=25n
+R15 _RCO N004 10
+R16 _OE_int N007 10
+R17 _CLR_int N008 10
+R18 RCLK_int N011 10
+.model SW SW Roff=100MEG Vt=2.5
+.lib 74HC.lib
+.backanno
+.end
